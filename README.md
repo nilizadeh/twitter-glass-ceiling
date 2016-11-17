@@ -1,13 +1,11 @@
 Twitter’s Glass Ceiling: The Effect of Perceived Gender on Online Visibility
 #######################
 
-We obtained our dataset from Twitter gardenhose (10% sample of Twitter). 
+We obtained our dataset from Twitter gardenhose (10% sample of Twitter) in Feburary 2015. 
 You can find the original tweet_ids in our dataset available here at: http://www.icwsm.org/2016/datasets/datasets/.
 The summary of our dataset including all the attributes used in our statistical analysis is published as summ_data.csv.
 
-
-We used firstnames documented in 1900- 2013 U.S. Census to detect Twitter users' gender by their firstnames.
-
+We used firstnames in 1900- 2013 U.S. Census documents to detect Twitter users' gender by their firstnames. 
 We also used Face++ (http://www.faceplusplus.com/) to detect users' gender by their profile pictures.
 
 The statistical analysis is done in R.
